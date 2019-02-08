@@ -1,0 +1,38 @@
+{
+  "name": "ohs-api",
+  "version": "1.0.0",
+  "description": "An API for daily patient visit application. Can create, read, update and delete patient record.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iceboss3d/ohs-api.git"
+  },
+  "keywords": [
+    "Hospital Management System",
+    "Patient's Record"
+  ],
+  "author": "Ayebakuro Ombu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iceboss3d/ohs-api/issues"
+  },
+  "homepage": "https://github.com/iceboss3d/ohs-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10"
+  },
+  "engines": {
+    "npm": "6.7.0",
+    "node": "10.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
